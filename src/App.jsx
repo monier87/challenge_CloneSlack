@@ -11,7 +11,7 @@ import { useStateValue } from "./StateProvider";
 function App() {
 
 
-  const [{user}, dispatch] = useStateValue();
+  const [{user}] = useStateValue();
 
 
 
@@ -27,9 +27,9 @@ function App() {
                       <Routes>
                         
 
-                          <Route element = {<Chat/>} path = "/room/:roomId"/>
+                          <Route element = {<Chat/>} path = "/room/:roomapp"/>
                         
-                          <Route element = {<><h1>Hello2</h1></>}  path = "/" />
+                          <Route element = {<><h1>Challenge Clone_Slack</h1></>}  path = "/" />
                         
                       </Routes>
                 </div>
