@@ -5,14 +5,12 @@ import "firebase/compat/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBJNF3b_ciP26EilwlKY9nHkSjSlRh9ITM",
-  authDomain: "slack-clone-a079b.firebaseapp.com",
-  databaseURL: "https://slack-clone-a079b-default-rtdb.firebaseio.com",
-  projectId: "slack-clone-a079b",
-  storageBucket: "slack-clone-a079b.appspot.com",
-  messagingSenderId: "345865012234",
-  appId: "1:345865012234:web:c04e70dce6399e6ff80bf3",
-  measurementId: "G-HDXBZ6Q6ZV"
+  "projectId": "challenge-cloneslack",
+  "appId": "1:456388828685:web:e286f0515f8fc2f6cd3f44",
+  "storageBucket": "challenge-cloneslack.appspot.com",
+  "apiKey": "AIzaSyA5IXJXlj6zh-ZOB7yp7LjQpBcHlo83W0Q",
+  "authDomain": "challenge-cloneslack.firebaseapp.com",
+  "messagingSenderId": "456388828685"
 };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig)

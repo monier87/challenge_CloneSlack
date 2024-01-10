@@ -27,7 +27,7 @@ function App() {
                       <Routes>
                         
 
-                          <Route element = {<Chat/>} path = "/room/:roomapp"/>
+                          <Route element = {<Chat/>} path = "/room/:roomId"/>
                         
                           <Route element = {<><h1>Challenge Clone_Slack</h1></>}  path = "/" />
                         
